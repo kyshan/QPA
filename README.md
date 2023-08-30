@@ -1,21 +1,21 @@
 # Quantum-Inspired Parallel Annealing for Combinatorial Optimization
-This repository consists of the source code for the paper "Efficient combinatorial optimization by quantum-inspired parallel annealing in analogue memristor crossbar," which is currently in archival status. This repository contains the code for implementing a quantum-inspired parallel annealing method for solving combinatorial optimization problems. 
+This repository consists of the source code for the paper `Efficient combinatorial optimization by quantum-inspired parallel annealing in analogue memristor crossbar`, which is currently in archival status. This repository contains the code for implementing a quantum-inspired parallel annealing method for solving combinatorial optimization problems. 
 ## Code 
 
 The code provided in this repository is an implementation of the quantum-inspired parallel annealing method for solving combinatorial optimization problems. It includes the following files:
-- QPA_code_demo.ipynb: This main Jupyter notebook file contains the code that runs the essential part of the QPA algorithm.
-- adjMat.npy: An example Max-Cut problem in the form of an adjacency matrix. This file is loaded by the main script.
-- README.md: This file, providing an overview of the code and instructions for usage.
+- `QPA_code_demo.ipynb`: This main Jupyter notebook file contains the code that runs the essential part of the QPA algorithm.
+- `adjMat.npy`: An example Max-Cut problem in the form of an adjacency matrix. This file is loaded by the main script.
+- `README.md`: This file, providing an overview of the code and instructions for usage.
 
 ## Usage
 To run the code, follow these steps:
-1. Install Jupyter Notebook and set up your Python 3 runtime environment.
+1. Install `Jupyter Notebook` and set up your `Python3` runtime environment.
 2. Make sure you have the following dependencies installed:
-   - numPy
-   - matplotlib
+   - `numPy`
+   - `matplotlib`
 3. Download and unzip the code repository.
 4. Open Jupyter Notebook and navigate to the extracted code repository directory.
-5. Open the "QPA_code_demo.ipynb" file.
+5. Open the `QPA_code_demo.ipynb` file.
 6. Execute the code cells in order to see the QPA algorithm in action.
 
 ## Algorithm
@@ -45,7 +45,6 @@ The algorithm involves the following key components:
 
 - Quantum-Inspired Annealing: This phase is the main computation loop of the algorithm. It performs multiple iterations denoted by numIterations and includes the steps for quantum-inspired annealing.
 
-- The exact details of the quantum-inspired annealing steps, such as updating the momentum, updating the classical "superposition" state, and calculating the Ising Hamiltonian for each trial, are encompassed within this phase.
 
 ## Results
 
